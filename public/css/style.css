@@ -151,11 +151,16 @@ footer p{
   }
 
   .meet_apps{
-    display: flex;
-    justify-content: flex-start;
+    /* display: flex; */
+    /* justify-content: flex-start; */
   }
   .main_apps .apps{
     height: 5rem;
+  }
+  .dib{
+    display: flex; 
+  flex-direction: column;  
+  justify-content: flex-start;
   }
  
 }
@@ -202,6 +207,12 @@ footer p{
 .meet_apps{
   display: flex;
   flex-direction: row;  
+  justify-content: center;
+}
+
+.dib{
+  display: flex;
+  /* flex-direction: column;   */
   justify-content: center;
 }
 
