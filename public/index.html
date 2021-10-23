@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <title>Time Table</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/clock logo.png" type="image/png">
+</head>
+<body id="home">
+  <div class="container-fluid main_menu">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light bg-darken">
+          <a class="navbar-brand" href="#"> <i class="fas fa-clock"></i> Classroom Management</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li> -->
+              <div class="nav">
+                <li class="nav-item">
+                  <div class="nav">
+                    <a class="nav-link" href="/contact">Contact</a>
+                  </div>
+                </li>
+              </div>
+              <div class="nav">
+                <li class="nav-item">
+                  <div class="nav">
+                    <a class="nav-link" href="/features">Features</a>
+                  </div>
+                </li>
+              </div>
+              <div class="nav">
+                <li class="nav-item">
+                  <div class="nav">
+                    <a class="nav-link" href="/howto">How to</a>
+                  </div>
+                </li>
+              </div>
+              <div class="nav">
+                <li class="nav-item">
+                  <div class="nav">
+                    <a class="nav-link" href="/login">Login/Sign Up</a>
+                  </div>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <!-- main header -->
+  <div class="container-fluid main_header">
+    <div class="row">
+      <div class="col-md-10 col-12 mx-auto">
+        <div class="row">
+          <!-- top left div -->
+          <div class="col-md-6 col-12 main_header_left">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="w-100" src="images/sign in.png" alt="Sign in/Register" >
+                  <h5 class="img_features" style="align-items: center;">Sign Up or Register</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src="images/schedule.png" alt="Create/Schedule meets">
+                    <h5 class="img_features">Create/Schedule meets</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src="images/choose.png" alt="Choose meet session" >
+                    <h5 class="img_features">Choose meet session</h5>
+                </div>
+                <div class="carousel-item">
+                  <img class="w-100" src="images/learnteach.png" alt="Learn/Teach">
+                    <h5 class="img_features">Learn/Teach</h5>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <!-- top right div -->
+          <div class="col-md-6 col-12 main_header_right">
+            <h1>Make sure you’re never late for a class again!</h1>
+          </div>
+          <!-- features -->
+          <div class="col-md-12 col-12 main_features">
+            <div class="features">
+              <div class="feat_signup">Sign up!</div>
+              <div class="feat_create">Create a time table</div>
+              <div class="feat_choose">Choose a session from time table</div>
+              <div class="feat_teachlearn">Teach or learn from session</div>
+            </div>
+          </div>
+          <!-- apps -->
+          <div class="col-md-12 col-12 main_apps">
+            <h3>Work on all meeting apps!</h3>
+            <ul class="meet_apps">
+              <li>
+                <img class="apps" src="images/google meet.svg" alt="Google Meet">
+                <p>Google meet</p>
+              </li>
+              <li>
+                <img class="apps" src="images/skype meet.png" alt="Skype">
+                <p>Skype</p>
+              </li>
+              <li>
+                <img class="apps" src="images/zoom.png.crdownload" alt="Zoom">
+                <p>zoom</p>
+              </li>
+              <li>
+                <img class="apps" src="images/cisco.png" alt="Cisco Webex">
+                <p>Cisco Webex</p>
+              </li>
+              <li>And more...</li>
+            </ul>
+          </div>
+          <!-- sign in/sign up -->
+          <div class="col-md-10 col-12 signup">
+            <div class="sign">
+              <ul>
+                  <li>
+                    <img src="images/student.png" alt="student">
+                    <p>Sign up as Student</p>
+                  </li>
+                  <li>
+                    <img src="images/teacher.png" alt="teacher">
+                    <p>Sign up as Teacher</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="siginin">Already have an account with us?<a href="">Sign In</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer code -->
+  <footer>
+    <p>Created with ❤ UwU</p>
+  </footer>
+</body>
+</html>
