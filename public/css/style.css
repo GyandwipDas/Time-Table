@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
 
 *{
-  font-weight: 600;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -201,7 +201,8 @@ footer p{
 
 .meet_apps{
   display: flex;
-  /* flex-direction: column; */  
+  flex-direction: row;  
+  justify-content: center;
 }
 
 .main_apps h3{
@@ -220,9 +221,28 @@ footer p{
 .signup li{
   list-style: none;
 }
-.sign{
+.signin_opt{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
-  /* text-align: center; */
+  justify-content: center;
+  text-align: center;
+}
+
+.signin_opt li{
+  margin: 2rem;
+}
+
+.signup_as{
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.siginin{
+  font-size: 1.7rem;
+  text-align: center;
+} 
+
+.siginin a{
+  color: var(--main-bg);
+  font-weight: 700;
 }
